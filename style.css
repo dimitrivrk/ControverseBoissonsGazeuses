@@ -160,7 +160,7 @@ transition: background 1s ease;
     width: 600px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 5%;
     margin-top: 50px;
 }
 
@@ -179,7 +179,7 @@ transition: background 1s ease;
 .thumb li{
     list-style: none;
     display: inline-block;
-    margin: 0 2vw;
+    margin: 0 1vw;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -189,7 +189,7 @@ transition: background 1s ease;
 }
 
 .thumb li img{
-    max-width: 60px;
+    width: 60%;
 }
 
 .sci{
