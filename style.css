@@ -179,7 +179,7 @@ transition: background 1s ease;
 .thumb li{
     list-style: none;
     display: inline-block;
-    margin: 0 25px;
+    margin: 0 2vw;
     cursor: pointer;
     transition: 0.5s;
 }
