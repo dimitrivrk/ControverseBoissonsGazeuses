@@ -119,14 +119,14 @@ transition: background 1s ease;
 
 .content .textBox{
     position: relative;
-    max-width: 65%;
+    max-width: 75%;
     min-width: 200px;
 }
 
 .content .textBox h2{
   text-align: left;
     color:#333;
-    font-size: 5vw;
+    font-size: 6.5vw;
     line-height: 1.4em;
     font-weight: 500;
 }
@@ -140,7 +140,7 @@ transition: background 1s ease;
 
 .content .textBox p {
   text-align: left;
-  font-size: 1.5vw;
+  font-size: 2vw;
     color:#333 
 }
 
