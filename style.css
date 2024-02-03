@@ -114,17 +114,19 @@ transition: background 1s ease;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .content .textBox{
     position: relative;
-    max-width: 600px;
+    max-width: 65%;
+    min-width: 200px;
 }
 
 .content .textBox h2{
+  text-align: left;
     color:#333;
-    font-size: 4em;
+    font-size: 5vw;
     line-height: 1.4em;
     font-weight: 500;
 }
@@ -137,6 +139,8 @@ transition: background 1s ease;
 }
 
 .content .textBox p {
+  text-align: left;
+  font-size: 1.5vw;
     color:#333 
 }
 
