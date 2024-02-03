@@ -230,16 +230,16 @@ transition: background 1s ease;
   
   .carousel {
     transform: rotate(115deg);
-    width: 50vh;
-    height: 50vh;
+    width: 30vw;
+    height: 30vh;
     border: 7vh solid none;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 55vh;
-    right: -40vh;
+    top: 70vh;
+    right: -30vw;
     flex-shrink: 0;
     transition: rotate 1s;
 
@@ -260,18 +260,18 @@ transition: background 1s ease;
   }
 
  .img1{
-  rotate: -90deg;
+  rotate: -120deg;
  }
   
  .img2{
-  rotate: 0;
+  rotate: -30deg;
  }
   
  .img3{
-  rotate: 90deg;
+  rotate: 60deg;
  }
  .img4{
-  rotate: 180deg;
+  rotate: 150deg;
  }
   .slide:nth-child(3) {
     top: -20rem;
