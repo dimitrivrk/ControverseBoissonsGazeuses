@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="film.css">
+    <title>Movie</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="/Website_Controverse/Img/imgMovie/logo.png" alt=""></a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Movie</a></li>
+            <li><a href="carto.html">Cartographie</a></li>
+            <li><a href="podcast.html">Podcast</a></li>
+        </ul>
+    </header>
+    <div class="banner">
+        <div class="content">
+            <h2>Put on a <span>Happy</span> face</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit alias amet assumenda laboriosam ullam fugit iste odio veniam. Eveniet, omnis.</p>
+            <a href="#" class="play" onclick="toggle();"><img src="/Website_Controverse/Img/imgMovie/play.png" alt="">Watch Trailer</a>
+            <div class="slide"></div>
+            <ul class="sci">
+                <li><a href="#"><img src="/Website_Controverse/Img/imgMovie/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="/Website_Controverse/Img/imgMovie/instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="/Website_Controverse/Img/imgMovie/twitter.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="trailer">
+        <video src="/Website_Controverse/Img/imgMovie/pexels-zeki-binici-19087434 (2160p).mp4" controls="true" ></video>
+        <img src="/Website_Controverse/Img/imgMovie/close.png" alt="" class="close" onclick="toggle();">
+    </div>
+
+    <script type="text/javascript">
+        function toggle(){
+            var trailer = document.querySelector('.trailer');
+            var video = document.querySelector('video');
+            trailer.classList.toggle('active')
+            video.currentTime = 0;
+            video.pause();
+        }
+    </script>
+</body>
+</html>
