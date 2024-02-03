@@ -209,16 +209,16 @@ header ul li a{
   
   .carousel {
     transform: rotate(115deg);
-    width: 50rem;
-    height: 50rem;
-    border: 7rem solid none;
+    width: 50vh;
+    height: 50vh;
+    border: 7vh solid none;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 47%;
-    right: -45%;
+    top: 55vh;
+    right: -40vh;
     flex-shrink: 0;
     transition: rotate 1s;
 
