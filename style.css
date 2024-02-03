@@ -246,20 +246,22 @@ transition: background 1s ease;
   }
   
   .slide {
-    width: 7rem;
+    width: 10vw;
+    height: auto;
     position: absolute;
   }
   
   .slide:nth-child(1) {
-    bottom: -20rem;
+    bottom: -30vw;
     
   }
   
   .slide:nth-child(2) {
-    left: -20rem;
+    left: -25vw;
   }
 
  .img1{
+  width: 100%;
   rotate: -120deg;
  }
   
@@ -274,15 +276,15 @@ transition: background 1s ease;
   rotate: 150deg;
  }
   .slide:nth-child(3) {
-    top: -20rem;
+    top: -32vw;
   }
   
   .slide:nth-child(4) {
-    right: -20rem;
+    right: -25vw;
   }
   
   .slide.active img {
-    transform: scale(2.5);
+    transform: scale(2);
     transition: transform 0.5s 0.5s;
   }
   
