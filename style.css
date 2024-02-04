@@ -316,7 +316,7 @@ transition: background 1s ease;
 
   .parallax{
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 20vh;
     background: #017143;
     z-index: 100000;
@@ -330,10 +330,10 @@ transition: background 1s ease;
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100px;
   background: url(Img/wave.png);
-  background-size: 1000px 100px;
+  background-size: 100vw 100px;
   animation: animate 4s ease-in-out infinite;
   animation-delay:calc(var(--i)*0.25s)
 }
