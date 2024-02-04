@@ -406,7 +406,7 @@ transition: background 1s ease;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 25vh;
   background: #017143;
 }
 
@@ -428,6 +428,7 @@ transition: background 1s ease;
 .LeftRight{
   animation: animation 0.3s linear infinite;
 }
+
 .sec4{
   position: relative;
   height: 100vh;
