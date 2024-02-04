@@ -402,24 +402,24 @@ transition: background 1s ease;
 
 /******* Goutte d'eau *****/
 .sec3{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  min-height: 25vh;
+  height: 60vh;
   background: #017143;
 }
 
 .drop{
-  
   position: relative;
   width: 3.5vw;
   min-height: 3.5vw;
   height: 3.5vw;
   min-width: 3.5vw;
-  box-shadow:inset 10px 10px 10px rgba(0,0,0,0.05),
-  15px 25px 10px rgba(0,0,0,0.05),
-  15px 20px 20px rgba(0,0,0,0.05),
+  box-shadow:inset 10vw 10vw 10vw rgba(0,0,0,0.05),
+  1.5vw 2.5vw 1vw rgba(0,0,0,0.05),
+  1.5vw 2vw 2vw rgba(0,0,0,0.05),
   inset -10px -10px 15px rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   animation: animate 2s ease-in-out infinite;
