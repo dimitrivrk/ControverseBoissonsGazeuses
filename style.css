@@ -405,6 +405,7 @@ transition: background 1s ease;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
   min-height: 100vh;
   background: #017143;
 }
@@ -412,10 +413,10 @@ transition: background 1s ease;
 .drop{
   
   position: relative;
-  width: 3.5em;
-  min-height: 3.5em;
-  height: 3.5em;
-  min-width: 3.5em;
+  width: 3.5vw;
+  min-height: 3.5vw;
+  height: 3.5vw;
+  min-width: 3.5vw;
   box-shadow:inset 10px 10px 10px rgba(0,0,0,0.05),
   15px 25px 10px rgba(0,0,0,0.05),
   15px 20px 20px rgba(0,0,0,0.05),
