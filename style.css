@@ -321,11 +321,7 @@ transition: background 1s ease;
     background: #017143;
     z-index: 100000;
   }
-.sec3{
-  position: relative;
-  height: 100vh;
-  background-color: #017143;
-}
+
 .wave{
   position: absolute;
   bottom: 0;
