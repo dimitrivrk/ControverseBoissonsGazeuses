@@ -221,7 +221,6 @@ transition: background 1s ease;
 /********* SLIDER ********/
 .slideshow {
     height: 100vh;
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -232,17 +231,18 @@ transition: background 1s ease;
   .carousel {
     transform: rotate(115deg);
     width: 30vw;
-    height: 30vh;
+    height: 30vw;
     border: 7vh solid none;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 75vh;
+    top: 72vh;
     right: -30vw;
     flex-shrink: 0;
     transition: rotate 1s;
+    
 
   }
   
@@ -253,13 +253,21 @@ transition: background 1s ease;
   }
   
   .slide:nth-child(1) {
-    bottom: -35vw;
+    bottom: -32vw;
     
   }
   
   .slide:nth-child(2) {
-    left: -30vw;
+    left: -32vw;
   }
+  .slide:nth-child(3) {
+    top: -32vw;
+  }
+  
+  .slide:nth-child(4) {
+    right: -32vw;
+  }
+  
 
  .img1{
   width: 100%;
@@ -276,24 +284,17 @@ transition: background 1s ease;
  .img4{
   rotate: 150deg;
  }
-  .slide:nth-child(3) {
-    top: -35vw;
-  }
   
-  .slide:nth-child(4) {
-    right: -30vw;
-  }
-  
-  .slide.active img {
-    transform: scale(2);
+.slide.active img {
+    transform: scale(1.7);
     transition: transform 0.5s 0.5s;
-  }
+}
   
-  .slide img {
-    width: 85%;
+.slide img {
+    width: 100%;
     object-fit: cover;
     transition: transform 0.5s;
-  }
+}
   
   
   
