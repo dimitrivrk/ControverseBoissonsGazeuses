@@ -284,8 +284,8 @@ transition: background 1s ease;
   }
   
   .slide.active img {
-    transform: scale(1);
-    transition: transform 0.5s 0.5s;
+    /*transform: scale(1);
+    transition: transform 0.5s 0.5s;*/
   }
   
   .slide img {
