@@ -155,6 +155,7 @@ transition: background 1s ease;
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
+    text-align: left;
 }
 
 .content .imgBox{
@@ -238,8 +239,8 @@ transition: background 1s ease;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 72vh;
-    right: -30vw;
+    top: 87vh;
+    right: -49vw;
     flex-shrink: 0;
     transition: rotate 1s;
     
@@ -253,19 +254,19 @@ transition: background 1s ease;
   }
   
   .slide:nth-child(1) {
-    bottom: -32vw;
+    bottom: -50vw;
     
   }
   
   .slide:nth-child(2) {
-    left: -32vw;
+    left: -50vw;
   }
   .slide:nth-child(3) {
-    top: -32vw;
+    top: -50vw;
   }
   
   .slide:nth-child(4) {
-    right: -32vw;
+    right: -50vw;
   }
   
 
@@ -286,7 +287,7 @@ transition: background 1s ease;
  }
   
 .slide.active img {
-    transform: scale(1.1);
+    transform: scale(1.7);
     transition: transform 0.5s 0.5s;
 }
   
