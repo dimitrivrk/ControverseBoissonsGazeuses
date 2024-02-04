@@ -239,7 +239,7 @@ transition: background 1s ease;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 87vh;
+    top: 82vh;
     right: -49vw;
     flex-shrink: 0;
     transition: rotate 1s;
