@@ -257,7 +257,7 @@ transition: background 1s ease;
   }
   
   .slide:nth-child(2) {
-    left: -25vw;
+    left: -30vw;
   }
 
  .img1{
@@ -276,11 +276,11 @@ transition: background 1s ease;
   rotate: 150deg;
  }
   .slide:nth-child(3) {
-    top: -32vw;
+    top: -30vw;
   }
   
   .slide:nth-child(4) {
-    right: -25vw;
+    right: -30vw;
   }
   
   .slide.active img {
