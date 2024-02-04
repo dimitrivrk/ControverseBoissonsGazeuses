@@ -381,7 +381,7 @@ transition: background 1s ease;
 }
 .sec{
   position: relative;
-  padding: 100px;
+  padding: 10vw;
   height: 100vh;
   z-index: 1000000;
   background-color: white;
@@ -390,12 +390,12 @@ transition: background 1s ease;
 
 
 .sec h2{
-  font-size: 3em;
+  font-size: 7vw;
   color:#111;
 }
 
 .sec p{
-  font-size: 1.2em;
+  font-size: 2vw;
   color: #111;
 
 }
