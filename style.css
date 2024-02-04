@@ -19,6 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background: #fff;
+  overflow: hidden;
 }
 .parallax::after {
   height: 100px; /* Hauteur du flou */
@@ -238,7 +239,7 @@ transition: background 1s ease;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 70vh;
+    top: 75vh;
     right: -30vw;
     flex-shrink: 0;
     transition: rotate 1s;
@@ -252,7 +253,7 @@ transition: background 1s ease;
   }
   
   .slide:nth-child(1) {
-    bottom: -30vw;
+    bottom: -35vw;
     
   }
   
@@ -276,7 +277,7 @@ transition: background 1s ease;
   rotate: 150deg;
  }
   .slide:nth-child(3) {
-    top: -30vw;
+    top: -35vw;
   }
   
   .slide:nth-child(4) {
@@ -284,8 +285,8 @@ transition: background 1s ease;
   }
   
   .slide.active img {
-    /*transform: scale(1);
-    transition: transform 0.5s 0.5s;*/
+    transform: scale(2);
+    transition: transform 0.5s 0.5s;
   }
   
   .slide img {
