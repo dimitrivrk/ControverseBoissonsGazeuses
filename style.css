@@ -427,14 +427,7 @@ transition: background 1s ease;
   animation: animation 0.3s linear infinite;
 }
 
-.sec4{
-  position: relative;
-  height: 100vh;
-  background-color: #017143;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .drop::before{
   content:'';
@@ -459,14 +452,25 @@ transition: background 1s ease;
 
 /********* Card *******/
 
+.sec4{
+  position: relative;
+  height: 100vh;
+  background-color: #017143;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap
+}
+
+
 .card{
   position: relative;
-  width: 300px;
+  width: 275px;
   height: 400px;
   background-color: #fff;
   box-shadow: 0px 50px 75px rgba(0,0,0,0.45);
   border-radius: 20px;
-  margin:0 2em
+  margin:1.5em 1.5em
 
 }
 
@@ -474,7 +478,7 @@ transition: background 1s ease;
   position: absolute;
   top: 40px;
   left: -15px;
-  width: 280px;
+  width: 260px;
   height: 50px;
   background: #017143;
   border-radius: 30px;
