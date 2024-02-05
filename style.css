@@ -120,14 +120,17 @@ transition: background 1s ease;
 
 .content .textBox{
     position: relative;
-    max-width: 75%;
+    max-width: 60%;
     min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .content .textBox h2{
   text-align: left;
     color:#333;
-    font-size: 6.5vw;
+    font-size: 4vw;
     line-height: 1.4em;
     font-weight: 500;
 }
@@ -141,7 +144,7 @@ transition: background 1s ease;
 
 .content .textBox p {
   text-align: left;
-  font-size: 2vw;
+  font-size: 1.3vw;
     color:#333 
 }
 
@@ -155,7 +158,6 @@ transition: background 1s ease;
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
-    text-align: left;
 }
 
 .content .imgBox{
