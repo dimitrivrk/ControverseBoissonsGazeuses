@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 header ul{
-    position:relative;
     display: flex;
 }
 
@@ -16,10 +15,9 @@ header ul li{
 }
 
 header ul li a{
-    display: inline-block;
     color: #fff;
     font-weight: 400;
-    margin-left: 40px;
+    margin-left: 2em;
     text-decoration: none;
 }
 
@@ -28,15 +26,17 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    padding: 2% 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 100px;
     z-index: 1000;
 }
 
 header .logo{
     max-width: 120px;
+    width: 100%;
+
 }
 
 header .toggle{
