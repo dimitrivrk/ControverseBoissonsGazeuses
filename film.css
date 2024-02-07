@@ -48,6 +48,27 @@ header .logo img,
 header .toggle img{
     max-width: 100%;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 5% 5%;
+    }
+  
+    header .logo {
+        margin-bottom: 2em; /* Ajoutez de l'espace entre le logo et le menu sur les petits écrans */
+    }
+  
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    header ul li a {
+        margin: 10px 0; /* Ajoutez de l'espace autour des liens pour les rendre plus cliquables */
+    }
+  }
+  
 .banner{
     position: relative;
     width: 100%;

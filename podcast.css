@@ -8,38 +8,55 @@
 body{
   overflow-x: hidden;
 }
-header{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header .logo{
-    position: relative;
-    max-width:80px ;
-    
+header .logo {
+  max-width: 80px;
+  width: 100%;
 }
 
-header ul{
-    position:relative;
-    display: flex;
+header ul {
+  display: flex;
 }
 
-header ul li{
-    list-style: none; 
+header ul li {
+  list-style: none;
 }
 
-header ul li a{
-    display: inline-block;
-    color: #333;
-    font-weight: 400;
-    margin-left: 40px;
-    text-decoration: none;
+header ul li a {
+  color: #333;
+  font-weight: 400;
+  margin-left: 2em;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      padding: 5% 5%;
+  }
+
+  header .logo {
+      margin-bottom: 2em; /* Ajoutez de l'espace entre le logo et le menu sur les petits écrans */
+  }
+
+  header ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header ul li a {
+      margin: 10px 0; /* Ajoutez de l'espace autour des liens pour les rendre plus cliquables */
+  }
 }
 
 
@@ -47,33 +64,44 @@ header ul li a{
 
 
 .player{
-    position: relative;
-    height: 95vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  margin-top: 0;
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-  .wrapper{
-    border: 1px solid transparent;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.5) 3px 19px 38px, rgba(0, 0, 0, 0.5) 0px 15px 12px;
-  }
+.wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  height: 80vh;
+  border: 1px solid transparent;
+  padding: 1em;
+  border-radius: 20px;
+  margin-top: 0;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.5) 3px 19px 38px, rgba(0, 0, 0, 0.5) 0px 15px 12px;
+}
   
   .details {
+  width: 100%;
+  height: 50%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   }
+
   
   .track-art {
-  margin: 25px;
-  height: 250px;
-  width: 250px;
-  border:2px solid 	#FFF;
+  margin: 1%;
+  height: 10vw;
+  width: 10vw;
+  border:0.2% solid 	#FFF;
   background-size: cover;
   background-position: center;
   border-radius: 50%;
@@ -82,7 +110,7 @@ header ul li a{
   box-shadow: 0px 6px 5px black;
   -moz-border-radius:190px;
   -webkit-border-radius:190px;
-  border-radius:190px;
+  border-radius:50%;
   }
   
   .now-playing {
@@ -99,10 +127,13 @@ header ul li a{
   }
   
   .buttons {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  
   margin-bottom: 30px;
+
   }
   .active{
       color: black;
@@ -113,7 +144,9 @@ header ul li a{
   .playpause-track,
   .prev-track,
   .next-track {
-  padding: 25px;
+  width: 5vw;
+  height: 5vw;
+  padding: 1vw;
   opacity: 0.8;
   transition: opacity .2s;
   }
