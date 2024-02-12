@@ -309,20 +309,20 @@ transition: background 1s ease;
     background-color: #7dbd77;
   }
   
-  .controls img {
+.controls img {
     width: 5rem;
-  }
+}
 
 
-  /***********  PARALLAX  *************/
+/***********  PARALLAX  *************/
 
-  .parallax{
+.parallax{
     position: relative;
     width: 100vw;
     height: 20vh;
     background: #017143;
     z-index: 100000;
-  }
+}
 
 .wave{
   position: absolute;
@@ -341,11 +341,13 @@ transition: background 1s ease;
   opacity: 1;
   background-position-x: 400px;
 }
+
 .wave#wave2, .wave#wave6{
   z-index: 999;
   opacity: 0.5;
   background-position-x: 300px;
 }
+
 .wave#wave3,.wave#wave7{
   z-index: 998;
   opacity: 0.2;
