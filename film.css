@@ -74,7 +74,7 @@ header .toggle img{
     width: 100%;
     min-height: 100vh;
     padding: 0 100px;
-    background: url(Img/imgMovie/bg.jpg);
+    background: url(Img/imgMovie/bg.png);
     background-position: center;
     background-size: cover;
     display: flex;

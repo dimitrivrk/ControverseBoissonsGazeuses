@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.9;
+  scroll-behavior:smooth
 }
 
 body {
@@ -188,6 +193,7 @@ transition: background 1s ease;
     transition: 0.5s;
 }
 
+
 .thumb li:hover{
     transform: translateY(-15px);
 }
@@ -196,6 +202,9 @@ transition: background 1s ease;
     width: 60%;
 }
 
+.thumb a img{
+  width: 50px;
+}
 .sci{
     position: absolute;
     top: 50%;
@@ -391,14 +400,15 @@ transition: background 1s ease;
 
 .sec h2{
   font-size: 7vw;
-  color:#111;
+  color:#333;
 }
 
 .sec p{
   font-size: 2vw;
-  color: #111;
-
+  color: #333;
+  text-align: justify;
 }
+
 
 /******* Goutte d'eau *****/
 .sec3{
@@ -411,6 +421,12 @@ transition: background 1s ease;
   background: #017143;
 }
 
+.sec3 h1{
+  position: absolute;
+  margin-top:22%;
+  color: #fff;
+  font-size: 5rem;
+}
 .drop{
   position: relative;
   width: 3.5vw;
@@ -472,10 +488,32 @@ transition: background 1s ease;
   background-color: #fff;
   box-shadow: 0px 50px 75px rgba(0,0,0,0.45);
   border-radius: 20px;
-  margin:1.5em 1.5em
+  margin:1.5em 1.5em;
+  text-align:justify;
+  padding: 0 1%;
+  
 
 }
 
+
+/******* Card text  ******/
+
+.card p{
+  padding-top: 40%;
+  font-size: 0.65rem;
+  margin: 2%;
+}
+
+/************************/
+
+.card i h1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 .card i{
   position: absolute;
   top: 40px;
@@ -672,3 +710,7 @@ footer{
   align-items: center;
   justify-content: center
 }
+
+
+
+

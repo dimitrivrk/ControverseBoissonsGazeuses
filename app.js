@@ -22,7 +22,7 @@ const intervalFn = () => {
   }, 4000);
 };
 
-intervalFn();
+/*intervalFn();*/
 
 controlLinks.forEach((control) => {
   control.addEventListener("click", () => {
@@ -41,7 +41,7 @@ controlLinks.forEach((control) => {
     control.classList.add("active");
   });
 });
-
+/*
 carousel.addEventListener("mouseenter", () => {
   clearInterval(intervalId);
   console.log("Pause");
@@ -50,4 +50,4 @@ carousel.addEventListener("mouseenter", () => {
 carousel.addEventListener("mouseleave", () => {
   intervalFn();
   console.log("Play");
-});
+});*/
