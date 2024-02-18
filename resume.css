@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9;
+  scroll-behavior:smooth
+}
+
+body {
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.normal {
+  position: relative;
+  width: 100%;
+  min-height: 10vh;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  overflow: hidden;
+}
+.parallax::after {
+  height: 100px; /* Hauteur du flou */
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  max-width: 80px;
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  color: #333;
+  font-weight: 400;
+  margin-left: 2em;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      padding: 5% 5%;
+  }
+
+  header .logo {
+      margin-bottom: 2em; /* Ajoutez de l'espace entre le logo et le menu sur les petits écrans */
+  }
+
+  header ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header ul li a {
+      margin: 10px 0; /* Ajoutez de l'espace autour des liens pour les rendre plus cliquables */
+  }
+}
+.resume{
+    padding: 3%;
+    text-align: left;
+}
+img{
+    width: 50%;
+}
+
+h1{
+    font-size: 2.5em;
+}

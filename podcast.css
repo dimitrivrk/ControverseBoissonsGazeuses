@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -99,17 +101,16 @@ header ul li a {
   
   .track-art {
   margin: 1%;
-  height: 10vw;
-  width: 10vw;
+  height: 100px;
+  width: 100px;
   border:0.2% solid 	#FFF;
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
   -moz-box-shadow: 0px 6px 5px black;
   -webkit-box-shadow: 0px 6px 5px black;
   box-shadow: 0px 6px 5px black;
-  -moz-border-radius:190px;
-  -webkit-border-radius:190px;
+  -moz-border-radius:10vw;
+  -webkit-border-radius:10vw;
   border-radius:50%;
   }
   
@@ -297,3 +298,9 @@ header ul li a {
   
 
 /**********************************/
+
+
+.entretien{
+  margin-top: -5%;
+  padding: 3%;
+}

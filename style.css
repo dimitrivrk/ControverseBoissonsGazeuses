@@ -503,6 +503,53 @@ transition: background 1s ease;
   font-size: 0.65rem;
   margin: 2%;
 }
+.cardRectLeft{
+  padding-left: 8%;
+  padding-top: 4%;
+
+}
+.cardRectRight{
+  padding-right: 8%;
+  padding-top: 4%;
+}
+
+
+.cardRectLeft p{
+  width: 70%;
+  padding-top: 1%;
+  font-size: 0.65rem;
+  margin-top: 1%;
+}
+
+.cardRectRight p{
+  padding-top: 1%;
+  font-size: 0.65rem;
+  margin-top: 1%;
+  width: 70%;
+
+}
+.cardRectLeft a{
+  text-decoration: none;
+  color:#333;
+}
+.cardRectRight a{
+  text-decoration: none;
+  color:#333
+}
+.cardRectLeft{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.cardRectRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+
 
 /************************/
 
@@ -553,12 +600,13 @@ transition: background 1s ease;
 
 .sec5{
   position: relative;
-  height: 200vh;
+  height: fit-content;
   width: 100%;
   background-color: #017143;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5%;
 }
 
 .dropRectLeft::before{
@@ -593,7 +641,25 @@ transition: background 1s ease;
   border-radius: 20px;
   margin:2em;
   margin-left: -4em;
+  text-align: center;
 
+}
+
+.cardRectLeft i h1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.cardRectRight i h1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
 .cardRectLeft i{
@@ -654,7 +720,7 @@ transition: background 1s ease;
 
 
 .cardRectRight{
-  text-align: right;
+  text-align: center;
   margin: 20px;
   position: relative;
   width: 70em;
